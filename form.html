@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="car.png">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="nav-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="additional.html">?</a></li>
+            </ul>
+            </div>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="nav-links2">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="form.html">Form</a></li>
+                    <li><a href="additional.html">Gallery</a></li>
+                </ul>
+                </div>
+        </nav>
+        <div class="text-box2">
+            <h2>Our Form</h2>
+        </div>
+
+        <div class="container">
+            <form name="form" class="form" id="form" action="/">
+                <div class="form-control">
+                    <label for="username">Name</label>
+                    <input id="username" name="username"required type="text">
+                    <div class="error"></div>
+                </div>
+
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" required type="email" >
+                </div>
+
+                <div class="form-control">
+                    <label for="phone">Phone Number</label>
+                    <input id="phone" name="phone"required type="phone">
+                </div>
+                <div class="form-control1">
+                    <input type="checkbox" id="label" required name="label">
+                    <label for="checkbox" id="checkbox">I accept the Terms and Conditions</label>
+                </div>
+                <button type="submit" id="submit">Submit</button>
+            </form>
+            <script src="script.js"></script>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright by Merci. Have a great day!</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
